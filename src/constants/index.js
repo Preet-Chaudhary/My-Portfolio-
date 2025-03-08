@@ -19,14 +19,14 @@ export const PROJECTS = [
   },
   {
     title: "Task Management App",
-    image: project2,
+    image: project3,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
     title: "Video Streaming App",
-    image: project3,
+    image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
