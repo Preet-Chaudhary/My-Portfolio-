@@ -2,4 +2,5 @@
 @import "tailwindcss";
 :root{
     font-family: "Inter",sans-serif;
+    --custom-firozi : #76b5c5;
 }
