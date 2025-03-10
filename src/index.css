@@ -4,3 +4,11 @@
     font-family: "Inter",sans-serif;
     --custom-firozi : #76b5c5;
 }
+a:hover{
+    background-color: beige;
+}
+.icons
+{
+    border-radius: 100%;
+    padding: 3px;
+}
