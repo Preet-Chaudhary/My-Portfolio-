@@ -12,7 +12,7 @@ const  Hero = () => {
                 Preet Chaudhary
             </motion.h1>
                 <span className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'> Full Stack Developer</span>
-                <p className='my-2 max-w-xl text-white py-6 tracking-tighter'>{HERO_CONTENT}</p>
+                <p className='my-2 max-w-xl font-display text-xl text-white py-6 tracking-tighter'>{HERO_CONTENT}</p>
         </div>
       </div>
       <div className='w-full lg:w-1/2 lg:p-8 '>

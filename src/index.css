@@ -12,3 +12,9 @@ a:hover{
     border-radius: 100%;
     padding: 3px;
 }
+.individual:hover{
+background-color: transparent;
+}
+@theme{
+    --font-display: "Roboto", sans-serif;
+}

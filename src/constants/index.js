@@ -2,6 +2,11 @@ import project1 from "../assets/projects/Project-1.webp";
 import project2 from "../assets/projects/Project-2.webp";
 import project3 from "../assets/projects/Project-3.webp";
 import project4 from "../assets/projects/Project-4.webp";
+//import Icons from "./icons";
+import { FaReact, FaHtml5, FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiTailwindcss, SiSocketdotio } from "react-icons/si";
+import { DiPython } from "react-icons/di";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experience.`;
 
@@ -14,29 +19,32 @@ export const PROJECTS = [
     title: "Commercial Gym Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A visually engaging gym website that showcases membership plans and services through smooth animations and interactive design.",
+    technologies: ["HTML", "Tailwind", "React", "MongoDB"],
+    link:"https://2dayfitness.netlify.app/"
   },
   {
-    title: "Task Management App",
+    title: "Ink and Think",
+    image: project4,
+    description:
+   " A real-time multiplayer drawing and guessing game where players join rooms using a code, take turns drawing a word, and others guess it within a time limit.",
+    technologies: ["HTML", "Tailwind", "React", "Node","Express","SocketIO"],
+    link:"https://inkandthinkbypc.netlify.app/"
+  },
+  {
+    title: "To Do List",
     image: project3,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Video Streaming App",
-    image: project2,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A visually engaging and interactive to-do list web app built with React, featuring local storage persistence, animated UI, and task management functionalities.",
+    technologies: ["HTML", "React", "Tailwind"],
+    link:"https://to-do-bypreet.netlify.app/"
   },
   {
     title: "Air Canvas",
-    image: project4,
+    image: project2,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Python app using OpenCV for real-time color tracking that enables midair sketching and gesture-triggered emoji reactions, boosting user engagement by 60% in beta tests.",
+    technologies: ["Python"],
   },
 ];
 

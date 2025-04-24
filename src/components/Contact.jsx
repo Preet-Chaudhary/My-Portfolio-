@@ -16,7 +16,7 @@ const Contact = () => {
 
         </div>
         <div className='ml-9'>
-            <h1 className=' mx-auto items-center bg-gradient-to-r mx-auto from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-8xl tracking-tight text-transparent'>Or</h1>
+            <h1 className=' mx-auto items-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-8xl tracking-tight text-transparent'>Or</h1>
         </div>
         <div className="flex w-1/2 h-[90%] flex-col items-center justify-center bg-transparent">
     <form className=" p-3 rounded-xl bg-gray-600 border-fuchsia-600">

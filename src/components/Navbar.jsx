@@ -13,12 +13,12 @@ const Navbar = () => {
           src={logo}
           alt="logo"
         />
-        <div className="m-8 flex items-center gap-4 text-2xl">
-          <a className="icons"  href="https://github.com/Preet-Chaudhary">  <FaGithub /></a>
-          <a className="icons"  href="https://www.instagram.com/preetchaudhary110/">
+        <div className="m-8 flex items-center gap-4 bg-blue-200 rounded-3xl p-2 text-2xl">
+          <a className="icons hover:scale-105 duration-100"  href="https://github.com/Preet-Chaudhary">  <FaGithub /></a>
+          <a className="icons hover:scale-105 duration-100"  href="https://www.instagram.com/preetchaudhary110/">
           <FaInstagram /></a>
-          <a className="icons"  href="https://www.linkedin.com/in/preet-chaudhary/"><FaLinkedin /></a>
-          <a  className="icons" href="">     <FaSquareXTwitter /></a>
+          <a className="icons hover:scale-105 duration-100"  href="https://www.linkedin.com/in/preet-chaudhary/"><FaLinkedin /></a>
+          <a  className="icons hover:scale-105 duration-100" href="">     <FaSquareXTwitter /></a>
         
 
           
